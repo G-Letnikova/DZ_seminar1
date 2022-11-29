@@ -8,10 +8,12 @@ int N2 = Convert.ToInt32(Console.ReadLine());
 
 if (N1 > N2) 
 {
-    Console.WriteLine($"max = {N1}");
+    Console.Write($"max = {N1}, ");
+    Console.WriteLine($"min = {N2}");
 }
 
 else 
 {
-    Console.WriteLine($"max = {N2}");
+    Console.Write($"max = {N2}, ");
+    Console.WriteLine($"min = {N1}");
 }
